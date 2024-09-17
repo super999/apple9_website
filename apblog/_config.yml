@@ -17,7 +17,6 @@ timezone: "Asia/Shanghai"
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://apple9.cn
-root: /apblog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,4 +104,9 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: sftp
+  host: 47.113.177.174
+  user: root
+  pass: Chenxiawen87
+  remotePath: /usr/share/nginx/html/apple9
+  port: 22
