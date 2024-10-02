@@ -7,7 +7,7 @@ title: Apple9 Weblog
 subtitle: ""
 description: ""
 keywords:
-author: John Doe
+author: Super999
 language:
   - zh-CN
   - zh-tw
@@ -104,9 +104,11 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: sftp
+  type: rsync
   host: 47.113.177.174
   user: root
-  pass: Chenxiawen87
-  remotePath: /usr/share/nginx/html/apple9
+  root: /usr/share/nginx/html/apple9
   port: 22
+  delete: true
+  verbose: true
+  ignore_errors: false
