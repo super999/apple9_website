@@ -13,15 +13,28 @@ tags: Fluid
 勾选框
 在 markdown 中加入如下的代码来使用 Checkbox：
 
+```markdown
+{% cb text, checked?, incline? %}
+```
+
+
 {% cb text, checked?, incline? %}
 
 按钮
 你可以在 markdown 中加入如下的代码来使用 Button：
 
+```markdown
+{% btn url, text, title %}
+```
+
 {% btn url, text, title %}
 
 或者使用 HTML 形式：
 
+
+```html
+<a class="btn" href="url" title="title">text</a>
+```
 <a class="btn" href="url" title="title">text</a>
 
 使用 Mermaid 可以通过内置的 Tag 书写：
