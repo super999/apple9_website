@@ -1,18 +1,57 @@
 ---
 title: 使用 EJS 编写的文章
-date: 2024-10-04
 tags:
-- EJS
-- Hexo
+  - EJS
+  - Hexo
+permalink: /posts/my-post-ejs.html
+abbrlink: 39008
+date: 2024-10-04 00:00:00
 ---
-<i class="iconfont icon-github-fill" aria-hidden="true"></i>
 
-<button class="btn" id="btn_click_me">点击</button>
+```ejs
+<% if (true) { %>
+  <h1>这是一个 EJS 模板</h1>
+<% } %>
+```
+
+<% if (true) { %>
+  <h1>这是一个 EJS 模板</h1>
+<% } %>
+
+```javascript
+<% var data = { name: "Hexo", version: 5.0 }; %>
+<span><%= JSON.stringify(data, null, 2) %></span>
+```
+
+<% var data = { name: "Hexo", version: 5.0 }; %>
+<span><%= JSON.stringify(data, null, 2) %></span>
 
 
-<script>
-  console.log('Hello, World!');
-  jQuery('#btn_click_me').click(function () {
-    alert('Hello, World!');
-  });
-</script>
+```javascript
+<% if (typeof page !== 'undefined') { %>
+  <span><%= page.title %></span>
+<% } else { %>
+  <span>没有找到 page 对象</span>
+<% } %>
+```
+
+<% if (typeof page !== 'undefined') { %>
+  <span><%= page.title %></span>
+<% } else { %>
+  <span>没有找到 page 对象</span>
+<% } %>
+
+
+```javascript
+<% if (typeof page !== 'undefined') { %>
+  <span><%= page.title %></span>
+<% } else { %>
+  <span>没有找到 page 对象</span>
+<% } %>
+```
+
+<% if (typeof page !== 'undefined') { %>
+  <span><%= page.title %></span>
+<% } else { %>
+  <span>没有找到 page 对象</span>
+<% } %>

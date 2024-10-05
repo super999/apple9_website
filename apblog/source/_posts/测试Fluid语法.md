@@ -1,8 +1,11 @@
 ---
 title: 测试Fluid语法
 mermaid: true
-date: 2024-10-02 16:41:50
 tags: Fluid
+categories: 技术
+permalink: /posts/test-fluid.html
+abbrlink: 63202
+date: 2024-10-02 16:41:50
 ---
 
 

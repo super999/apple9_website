@@ -1,9 +1,12 @@
 ---
 title: 测试Markdown语法
-date: 2024-10-02 15:05:16
 tags:
   - 测试
   - markdown
+categories: 技术
+permalink: /posts/test-markdown.html
+abbrlink: 18225
+date: 2024-10-02 15:05:16
 ---
 
 [参考网址: https://hexo.io/zh-cn/docs/](https://hexo.io/zh-cn/docs/)

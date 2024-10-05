@@ -1,6 +1,5 @@
 ---
 title: js测试
-date: 2024-10-04 07:14:34
 layout: post
 published: true
 categories:
@@ -8,6 +7,9 @@ categories:
 tags:
   - js
   - 测试
+permalink: /posts/js-test.html
+abbrlink: 842
+date: 2024-10-04 07:14:34
 ---
 
 [参考网址: https://hexo.io/zh-cn/docs/](https://hexo.io/zh-cn/docs/)
@@ -63,3 +65,24 @@ tags:
   ![办公室](/picture/img_02.png)
 
 
+
+### 测试 ejs 语法
+
+{% note warning %}
+  注意：这是一个Markdown文件，不是ejs文件，所以这里的 ejs 语法不会被解析。
+{% endnote %}
+
+
+```javascript
+<% if (typeof page !== 'undefined') { %>
+  <span><%= page.title %></span>
+<% } else { %>
+  <span>没有找到 page 对象</span>
+<% } %>
+```
+
+<% if (typeof page !== 'undefined') { %>
+  <span><%= page.title %></span>
+<% } else { %>
+  <span>没有找到 page 对象</span>
+<% } %>
