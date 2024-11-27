@@ -23,3 +23,23 @@ hexo generate --deploy
 ```bash
 hexo new "文章标题"
 ```
+
+## 3. cnpm 安装命令， 项目初始化
+
+
+```bash
+#安装 cnpm
+npm install -g cnpm --registry=https://registry.npmmirror.com
+```
+
+```bash
+# 设置 npm 镜像
+xiawe@xiawen-pc-3060 MINGW64 /c/website_dev/apple9_website/apblog (master)
+$ npm config set registry https://registry.npmmirror.com
+```
+
+```bash
+# 安装项目依赖
+xiawe@xiawen-pc-3060 MINGW64 /c/website_dev/apple9_website/apblog (master)
+$ npm install
+```
