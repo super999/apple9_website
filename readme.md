@@ -13,7 +13,7 @@ hexo server
 hexo generate
 ```
 
-打包且发布
+打包且发布   使用 git bash !!
 ```bash
 hexo generate --deploy
 ```

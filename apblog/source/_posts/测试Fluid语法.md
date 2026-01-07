@@ -17,11 +17,6 @@ date: 2024-10-02 16:41:50
 在 markdown 中加入如下的代码来使用 Checkbox：
 
 ```markdown
-{% cb text, checked?, incline? %}
-```
-
-
-{% cb text, checked?, incline? %}
 
 按钮
 你可以在 markdown 中加入如下的代码来使用 Button：
