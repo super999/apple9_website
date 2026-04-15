@@ -1,4 +1,5 @@
 ---
 title: 分类
 date: 2024-09-17 21:47:09
+type: categories
 ---
