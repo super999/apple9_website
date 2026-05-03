@@ -105,10 +105,13 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: rsync
-  host: 47.113.177.174
-  user: root
-  root: /usr/share/nginx/html/apple9
+  host: 106.55.227.119
+  user: super999
+  root: /usr/share/nginx/html/apple9/
   port: 22
+  rsh: /usr/bin/ssh
+  key: /c/Users/xiawe/.ssh/id_rsa
+  args: --rsync-path=sudo rsync
   delete: true
   verbose: true
   ignore_errors: false

@@ -5,6 +5,7 @@ tags:
 categories:
   - 技术
 permalink: /posts/hexo-deploy.html
+date: 2026-05-03 10:12:00
 abbrlink: 58177
 ---
 
@@ -16,7 +17,7 @@ abbrlink: 58177
 ```yaml
 deploy:
   type: rsync
-  host: 47.113.177.174
+  host: 106.55.227.119
   user: root
   root: /usr/share/nginx/html/apple9
   port: 22
@@ -34,7 +35,7 @@ ssh-keygen -t rsa
 3. 将公钥添加到服务器
 
 ```bash
-ssh-copy-id user@<你的服务器IP地址>
+ssh-copy-id user@106.55.227.119
 ```
 
 4. 部署 Hexo 网站,使用 `hexo d` 或 `hexo deploy` 命令部署 Hexo 网站
